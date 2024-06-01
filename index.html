@@ -104,7 +104,7 @@ window.onload = _ => {
   document.querySelector("#connect").onclick = function() {
     serial.requestPort().then(selectedPort => {
       port = selectedPort;
-      this.style = "visibility: hidden";
+      this.style = "visibility: hiddenco
       connect();
     });
   }
@@ -116,7 +116,7 @@ window.onload = _ => {
 }
 
 </script>
- <button id="connect" style="visibility: initial">Connect To WebUSB Device</button>
+ <button id="connect" style="visibility: initial">Connect To WebUSB Device2</button>
  <br><br><label for="title">Sender: </label> <br>
  <textarea id="editor", rows="25" cols="80" id="source">WebUSB!</textarea>
  <br><button id="submit">Send</button>
