@@ -104,7 +104,7 @@ window.onload = _ => {
   document.querySelector("#connect").onclick = function() {
     serial.requestPort().then(selectedPort => {
       port = selectedPort;
-      this.style = "visibility: hiddenco
+      this.style = "visibility: hidden";
       connect();
     });
   }
